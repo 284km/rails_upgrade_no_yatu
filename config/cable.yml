@@ -7,3 +7,4 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
+  channel_prefix: rails_upgrade_no_yatu_production
